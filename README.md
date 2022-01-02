@@ -1,2 +1,2 @@
 # Algorithm
-For Studying Algorithm
+BOJ Algorithm Study With C++
