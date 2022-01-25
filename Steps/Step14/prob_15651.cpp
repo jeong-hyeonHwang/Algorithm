@@ -8,6 +8,8 @@ int* node;
 
 void dfs(int n, int m, int depth)
 {
+    // 현재 depth가 m이라면
+    // 즉, n개로부터 m개를 선택 완료 했다면 -> 해당 Arr 출력
     if(m == depth)
     {
         for(int t=0; t < m; t++)
@@ -18,6 +20,8 @@ void dfs(int n, int m, int depth)
         return;
     }
 
+    // depth에 상관없이 모든 숫자를 다 출력 가능하므로
+    // 따로 visitCheck는 필요하지 않다
     for(int i=0; i < n; i++)
     {
         node[depth] = i+1;
