@@ -68,6 +68,13 @@
         "set": "cpp",
         "deque": "cpp",
         "stack": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "cinttypes": "cpp",
+        "coroutine": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "thread": "cpp",
+        "unordered_set": "cpp",
+        "variant": "cpp"
     }
 }
